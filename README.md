@@ -1,13 +1,13 @@
 # AI-Powered-Policy-Summarizer-Scenario-Generator
 AI Powered Policy Summarizer &amp; Scenario Generator
 
-# 🏛️ AI Policy Summarizer & Scenario Generator
+#  AI Policy Summarizer & Scenario Generator
 
 An AI-powered web application that extracts, preprocesses, and summarises real-world government policy documents — then generates scenario-adapted policy drafts for different stakeholder contexts using Generative AI.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Policy documents are long, complex, and rarely reach the people who need them most. The same national policy may need to be communicated differently to educators, healthcare workers, rural communities, or disaster response teams.
 
@@ -17,7 +17,7 @@ This tool bridges that gap — taking any uploaded policy PDF and producing:
 
 ---
 
-## 🖥️ Interface
+##  Interface
 
 | Left Panel | Right Panel |
 |---|---|
@@ -25,19 +25,19 @@ This tool bridges that gap — taking any uploaded policy PDF and producing:
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📄 **PDF Upload & Text Extraction** — supports any government policy PDF via PyMuPDF and PyPDF2
-- 🧠 **NLP Preprocessing Pipeline** — NLTK tokenisation, stopword removal, lemmatisation, and noise filtering
-- 📝 **Structured Policy Summary** — outputs three clearly labelled sections: Main Goals, Key Measures & Strategies, and Overall Direction
-- 🎯 **6 Preset Scenario Lenses** — Rural Development, Post-Disaster Recovery, Urban & Youth Focus, Education & Research, Healthcare & Wellbeing, Environment & Sustainability
-- ✏️ **Custom Scenario Input** — define any stakeholder context to generate a tailored policy draft
-- 🔄 **Regenerate Support** — iterate on any scenario with a single click
-- 🤖 **Dual AI Backend** — Gemini 2.5 Flash (primary) with HuggingFace BART (offline fallback)
+-  **PDF Upload & Text Extraction** — supports any government policy PDF via PyMuPDF and PyPDF2
+-  **NLP Preprocessing Pipeline** — NLTK tokenisation, stopword removal, lemmatisation, and noise filtering
+-  **Structured Policy Summary** — outputs three clearly labelled sections: Main Goals, Key Measures & Strategies, and Overall Direction
+-  **6 Preset Scenario Lenses** — Rural Development, Post-Disaster Recovery, Urban & Youth Focus, Education & Research, Healthcare & Wellbeing, Environment & Sustainability
+-  **Custom Scenario Input** — define any stakeholder context to generate a tailored policy draft
+-  **Regenerate Support** — iterate on any scenario with a single click
+-  **Dual AI Backend** — Gemini 2.5 Flash (primary) with HuggingFace BART (offline fallback)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |---|---|
@@ -51,7 +51,7 @@ This tool bridges that gap — taking any uploaded policy PDF and producing:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 
@@ -86,7 +86,7 @@ Then open your browser at `http://localhost:7860`
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 ```txt
 gradio
@@ -101,7 +101,7 @@ python-dotenv
 
 ---
 
-## 📖 How to Use
+##  How to Use
 
 1. **Upload** any government policy PDF using the left panel
 2. **Click** `Summarise Policy` to generate a structured NLP-processed summary
@@ -111,14 +111,14 @@ python-dotenv
 
 ---
 
-## 🧪 Tested With
+##  Tested With
 
 - 🇱🇰 **AI Sri Lanka 2028** — Sri Lanka's National Strategy on AI (CFSAI, 2023)
   - Generated adapted drafts for: Education & Research, AI for Health Development, Rural Development
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ai-policy-summarizer/
@@ -131,7 +131,7 @@ ai-policy-summarizer/
 
 ---
 
-## ⚙️ Architecture
+##  Architecture
 
 ```
 PDF Upload
@@ -164,7 +164,7 @@ Policy Draft Generation
 
 ---
 
-## 📄 Generated Draft Structure
+##  Generated Draft Structure
 
 Every generated policy draft follows this formal six-section structure:
 
@@ -177,7 +177,7 @@ Every generated policy draft follows this formal six-section structure:
 
 ---
 
-## 🔒 Notes
+## Notes
 
 - The app never fabricates content — all generated drafts are derived exclusively from the uploaded source document
 - Patient/citizen data is never collected or stored
